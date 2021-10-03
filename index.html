@@ -14,6 +14,8 @@
     
     <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    
     <script defer src="js/script.js"></script>
 
     <title>Real Foods</title>
@@ -27,11 +29,11 @@
 
             <nav class="main-nav">
                 <ul class="main-nav-list">
-                    <li><a class="main-nav-link" href="#">How it works</a></li> 
-                    <li><a class="main-nav-link" href="#">Meals</a></li> 
-                    <li><a class="main-nav-link" href="#">Testimonials</a></li> 
-                    <li><a class="main-nav-link" href="#">Pricing</a></li> 
-                    <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li> 
+                    <li><a class="main-nav-link" href="#how">How it works</a></li> 
+                    <li><a class="main-nav-link" href="#meals">Meals</a></li> 
+                    <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li> 
+                    <li><a class="main-nav-link" href="#pricing">Pricing</a></li> 
+                    <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li> 
                 </ul>
             </nav>
 
@@ -50,8 +52,8 @@
                         <p class="hero-description">
                             The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.
                         </p>
-                        <a href="#" class="btn btn-full margin-right-sm">Start Eating Well</a>
-                        <a href="#" class="btn btn-outline">Learn More &darr;</a>
+                        <a href="#cta" class="btn btn-full margin-right-sm">Start Eating Well</a>
+                        <a href="#how" class="btn btn-outline">Learn More &darr;</a>
                         <div class="delivered-meals">
                             <div class="delivered-imgs">
                                 <img src="img/customers/customer-1.jpg" alt="Customer Photo">    
@@ -83,7 +85,7 @@
                 </div>
             </section>
 
-            <section class="section-how">
+            <section class="section-how" id="how">
                 <div class="container">
                     <span class="subheading">How it works</span>
                     <h2 class="heading-secondary">Your daily dose of health in 3 simple steps</h2>
@@ -131,7 +133,7 @@
                 </div>   
             </section>
 
-            <section class="section-meals">
+            <section class="section-meals" id="meals">
                 <div class="container center-text">
                     <span class="subheading">Meals</span>
                     <h2 class="heading-secondary">RealFoods AI chooses from 5,000+ recipes</h2>
@@ -197,7 +199,7 @@
                 
                     <div class="testimonials">
 
-                        <figure class="tetimonial">
+                        <figure class="tetimonial" id="testimonials">
                             <img src="img/customers/dave.jpg" class="testimonial-img" alt="Photo of Customer Dave">
                             <blockquote class="testimonial-text">Inexpensive, healthy and great-tasting meals, without even having to order 
                                 manually! It feels truly magical.
@@ -280,7 +282,7 @@
                 </div>    
             </section>
 
-            <section class="section-pricing">
+            <section class="section-pricing" id="pricing">
                 <div class="container">
                     <span class="subheading">Pricing</span>
                     <h2 class="heading-secondary">Eating well without breaking the bank</h2>
@@ -357,7 +359,7 @@
                 </div>
             </section> 
             
-            <section class="section-cta">
+            <section class="section-cta" id="cta">
                 <div class="container">
                     <div class="cta">
                     <div class="cta-text-box">
